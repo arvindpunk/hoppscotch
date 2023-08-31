@@ -345,7 +345,7 @@ export class TeamCollectionService {
         parentID: collectionID,
       },
       orderBy: {
-        orderIndex: 'asc',
+        title: 'asc',
       },
       take: take, // default: 10
       skip: cursor ? 1 : 0,
@@ -372,7 +372,7 @@ export class TeamCollectionService {
         parentID: null,
       },
       orderBy: {
-        orderIndex: 'asc',
+        title: 'asc',
       },
       take: take, // default: 10
       skip: cursor ? 1 : 0,
